@@ -1,0 +1,453 @@
+{
+  "_version": "1.1.0",
+  "resources": [
+    {
+      "name": "../ui/Device.js",
+      "module": "sap/ui/Device.js"
+    },
+    {
+      "name": "../ui2/srvc/ODataService.js",
+      "module": "sap/ui2/srvc/ODataService.js"
+    },
+    {
+      "name": "../ui2/srvc/ODataWrapper.js",
+      "module": "sap/ui2/srvc/ODataWrapper.js"
+    },
+    {
+      "name": "../ui2/srvc/PageBuildingService.js",
+      "module": "sap/ui2/srvc/PageBuildingService.js",
+      "required": [
+        "sap/ui2/srvc/utils.js",
+        "sap/ui2/srvc/ODataService.js",
+        "sap/ui2/srvc/ODataWrapper.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/RemoteCatalogService.js",
+      "module": "sap/ui2/srvc/RemoteCatalogService.js",
+      "required": [
+        "sap/ui2/srvc/PageBuildingService.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/allcatalogs.js",
+      "module": "sap/ui2/srvc/allcatalogs.js"
+    },
+    {
+      "name": "../ui2/srvc/bag.js",
+      "module": "sap/ui2/srvc/bag.js"
+    },
+    {
+      "name": "../ui2/srvc/catalog.js",
+      "module": "sap/ui2/srvc/catalog.js"
+    },
+    {
+      "name": "../ui2/srvc/chip.js",
+      "module": "sap/ui2/srvc/chip.js"
+    },
+    {
+      "name": "../ui2/srvc/chipdefinition.js",
+      "module": "sap/ui2/srvc/chipdefinition.js"
+    },
+    {
+      "name": "../ui2/srvc/chipinstance.js",
+      "module": "sap/ui2/srvc/chipinstance.js"
+    },
+    {
+      "name": "../ui2/srvc/contracts/actions.js",
+      "module": "sap/ui2/srvc/contracts/actions.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/bag.js",
+      "module": "sap/ui2/srvc/contracts/bag.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js",
+        "sap/ui2/srvc/utils.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/configuration.js",
+      "module": "sap/ui2/srvc/contracts/configuration.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/configurationUi.js",
+      "module": "sap/ui2/srvc/contracts/configurationUi.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/fullscreen.js",
+      "module": "sap/ui2/srvc/contracts/fullscreen.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/navigation.js",
+      "module": "sap/ui2/srvc/contracts/navigation.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/preview.js",
+      "module": "sap/ui2/srvc/contracts/preview.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/refresh.js",
+      "module": "sap/ui2/srvc/contracts/refresh.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/search.js",
+      "module": "sap/ui2/srvc/contracts/search.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/searchProvider.js",
+      "module": "sap/ui2/srvc/contracts/searchProvider.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/types.js",
+      "module": "sap/ui2/srvc/contracts/types.js"
+    },
+    {
+      "name": "../ui2/srvc/contracts/url.js",
+      "module": "sap/ui2/srvc/contracts/url.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/contracts/visible.js",
+      "module": "sap/ui2/srvc/contracts/visible.js",
+      "condRequired": [
+        "sap/ui2/srvc/chip.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/error.js",
+      "module": "sap/ui2/srvc/error.js",
+      "condRequired": [
+        "sap/ui2/srvc/utils.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/es5.js",
+      "module": "sap/ui2/srvc/es5.js"
+    },
+    {
+      "name": "../ui2/srvc/factory.js",
+      "module": "sap/ui2/srvc/factory.js"
+    },
+    {
+      "name": "../ui2/srvc/page.js",
+      "module": "sap/ui2/srvc/page.js"
+    },
+    {
+      "name": "../ui2/srvc/pageset.js",
+      "module": "sap/ui2/srvc/pageset.js",
+      "condRequired": [
+        "sap/ui2/srvc/page.js",
+        "sap/ui2/srvc/utils.js"
+      ]
+    },
+    {
+      "name": "../ui2/srvc/pbs.js",
+      "module": "sap/ui2/srvc/pbs.js"
+    },
+    {
+      "name": "../ui2/srvc/utils.js",
+      "module": "sap/ui2/srvc/utils.js"
+    },
+    {
+      "name": ".library"
+    },
+    {
+      "name": ".theming"
+    },
+    {
+      "name": "adapters/abap/AppStateAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/AppStateAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ushell/services/Personalization.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/AppStateAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/AppStateAdapter.js",
+      "required": [
+        "sap/ushell/services/Personalization.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/ClientSideTargetResolutionAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/ClientSideTargetResolutionAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/utils.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/ClientSideTargetResolutionAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/ClientSideTargetResolutionAdapter.js",
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/utils.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/ContainerAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/ContainerAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ushell/System.js",
+        "sap/ushell/User.js"
+      ],
+      "condRequired": [
+        "sap/ui2/srvc/ODataWrapper.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/ContainerAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/ContainerAdapter.js",
+      "required": [
+        "sap/ushell/System.js",
+        "sap/ushell/User.js"
+      ],
+      "condRequired": [
+        "sap/ui2/srvc/ODataWrapper.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/EndUserFeedbackAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/EndUserFeedbackAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/EndUserFeedbackAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/EndUserFeedbackAdapter.js",
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/LaunchPageAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/LaunchPageAdapter.js",
+      "isDebug": true
+    },
+    {
+      "name": "adapters/abap/LaunchPageAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/LaunchPageAdapter.js"
+    },
+    {
+      "name": "adapters/abap/NavTargetResolutionAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/NavTargetResolutionAdapter.js",
+      "isDebug": true
+    },
+    {
+      "name": "adapters/abap/NavTargetResolutionAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/NavTargetResolutionAdapter.js"
+    },
+    {
+      "name": "adapters/abap/PageBuildingAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/PageBuildingAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui2/srvc/factory.js",
+        "sap/ushell/System.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/PageBuildingAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/PageBuildingAdapter.js",
+      "required": [
+        "sap/ui2/srvc/factory.js",
+        "sap/ushell/System.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/PersonalizationAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/PersonalizationAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ushell/services/Personalization.js",
+        "sap/ushell/services/_Personalization/constants.js"
+      ],
+      "condRequired": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/PersonalizationAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/PersonalizationAdapter.js",
+      "required": [
+        "sap/ushell/services/Personalization.js",
+        "sap/ushell/services/_Personalization/constants.js"
+      ],
+      "condRequired": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/SearchAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/SearchAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ushell/renderers/fiori2/search/esh/api/release/sina.js",
+        "sap/ushell/renderers/fiori2/search/SearchConfiguration.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/SearchAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/SearchAdapter.js",
+      "required": [
+        "sap/ushell/renderers/fiori2/search/esh/api/release/sina.js",
+        "sap/ushell/renderers/fiori2/search/SearchConfiguration.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/SupportTicketAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/SupportTicketAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/SupportTicketAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/SupportTicketAdapter.js",
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/UserInfoAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/abap/UserInfoAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/abap/UserInfoAdapter.js",
+      "module": "sap/ushell_abap/adapters/abap/UserInfoAdapter.js",
+      "required": [
+        "sap/ui2/srvc/ODataWrapper.js",
+        "sap/ui2/srvc/ODataService.js"
+      ]
+    },
+    {
+      "name": "adapters/hana/ContainerAdapter-dbg.js",
+      "module": "sap/ushell_abap/adapters/hana/ContainerAdapter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui2/srvc/utils.js",
+        "sap/ushell/System.js",
+        "sap/ushell/User.js"
+      ]
+    },
+    {
+      "name": "adapters/hana/ContainerAdapter.js",
+      "module": "sap/ushell_abap/adapters/hana/ContainerAdapter.js",
+      "required": [
+        "sap/ui2/srvc/utils.js",
+        "sap/ushell/System.js",
+        "sap/ushell/User.js"
+      ]
+    },
+    {
+      "name": "bootstrap/abap-dbg.js",
+      "isDebug": true
+    },
+    {
+      "name": "bootstrap/abap.js"
+    },
+    {
+      "name": "library-all-dbg.js",
+      "isDebug": true,
+      "merged": true
+    },
+    {
+      "name": "library-all.js",
+      "merged": true
+    },
+    {
+      "name": "library-dbg.js",
+      "module": "sap/ushell_abap/library.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Core.js",
+        "sap/ui/core/library.js"
+      ]
+    },
+    {
+      "name": "library-preload.js",
+      "merged": true
+    },
+    {
+      "name": "library-preload.js.map"
+    },
+    {
+      "name": "library-preload.json",
+      "merged": true
+    },
+    {
+      "name": "library.dependencies.json"
+    },
+    {
+      "name": "library.dependencies.xml"
+    },
+    {
+      "name": "library.js",
+      "module": "sap/ushell_abap/library.js",
+      "required": [
+        "sap/ui/core/Core.js",
+        "sap/ui/core/library.js"
+      ]
+    },
+    {
+      "name": "library.properties",
+      "module": "sap/ushell_abap/library.properties"
+    },
+    {
+      "name": "library.templates.xml"
+    },
+    {
+      "name": "manifest.json",
+      "module": "sap/ushell_abap/manifest.json"
+    },
+    {
+      "name": "resources.json"
+    }
+  ]
+}

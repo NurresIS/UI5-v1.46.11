@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<library  version="2.0" name="sap.ushell_abap">
+  <module name="sap/ui/Device.js" size="15928" compressedSize="15928" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/ODataService.js" size="10116" compressedSize="2086">
+    <description>global jQuery, sap</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/ODataWrapper.js" size="48667" compressedSize="9292">
+    <description>global jQuery, OData, sap, window</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/PageBuildingService.js" size="66606" compressedSize="12329">
+    <description>global jQuery, OData, sap</description>
+    <requires>
+      <module name="sap/ui2/srvc/utils.js"/>
+      <module name="sap/ui2/srvc/ODataService.js"/>
+      <module name="sap/ui2/srvc/ODataWrapper.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/RemoteCatalogService.js" size="1935" compressedSize="349">
+    <description>global jQuery, sap</description>
+    <requires>
+      <module name="sap/ui2/srvc/PageBuildingService.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/allcatalogs.js" size="7140" compressedSize="1528" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/bag.js" size="28829" compressedSize="5170" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/catalog.js" size="37397" compressedSize="6467" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/chip.js" size="33833" compressedSize="7882" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/chipdefinition.js" size="7259" compressedSize="2032" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/chipinstance.js" size="33500" compressedSize="5666" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/contracts/actions.js" size="8601" compressedSize="1298">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/bag.js" size="5837" compressedSize="823">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="sap/ui2/srvc/utils.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/configuration.js" size="7682" compressedSize="894">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/configurationUi.js" size="12461" compressedSize="1192">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/fullscreen.js" size="2132" compressedSize="451">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/navigation.js" size="1656" compressedSize="552">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/preview.js" size="7183" compressedSize="794">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/refresh.js" size="1375" compressedSize="330">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/search.js" size="3826" compressedSize="646">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/searchProvider.js" size="1601" compressedSize="562">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/types.js" size="226" compressedSize="86" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/contracts/url.js" size="4838" compressedSize="529">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/contracts/visible.js" size="4062" compressedSize="687">
+    <requires>
+      <module name="sap/ui2/srvc/chip.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/error.js" size="1606" compressedSize="408">
+    <requires>
+      <module name="sap/ui2/srvc/utils.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/es5.js" size="242" compressedSize="55" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/factory.js" size="28987" compressedSize="5041" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/page.js" size="34211" compressedSize="6196" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/pageset.js" size="15916" compressedSize="3535">
+    <requires>
+      <module name="sap/ui2/srvc/page.js" conditional="true"/>
+      <module name="sap/ui2/srvc/utils.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui2/srvc/pbs.js" size="120723" compressedSize="23116" raw="true">
+  </module>
+  <module name="sap/ui2/srvc/utils.js" size="33396" compressedSize="7738" raw="true">
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/AppStateAdapter.js" size="4762" compressedSize="1457">
+    <description>global jQuery, sap, setTimeout</description>
+    <requires>
+      <module name="sap/ushell/services/Personalization.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/ClientSideTargetResolutionAdapter.js" size="60012" compressedSize="18886">
+    <description>global jQuery, sap, setTimeout</description>
+    <requires>
+      <module name="sap/ui2/srvc/ODataWrapper.js"/>
+      <module name="sap/ui2/srvc/utils.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/ContainerAdapter.js" size="18466" compressedSize="4670">
+    <description>jslint nomen:true</description>
+    <requires>
+      <module name="sap/ushell/System.js"/>
+      <module name="sap/ushell/User.js"/>
+      <module name="sap/ui2/srvc/ODataWrapper.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/EndUserFeedbackAdapter.js" size="4476" compressedSize="1451">
+    <description>global jQuery, sap, setTimeout</description>
+    <requires>
+      <module name="sap/ui2/srvc/ODataWrapper.js"/>
+      <module name="sap/ui2/srvc/ODataService.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/LaunchPageAdapter.js" size="111898" compressedSize="21810">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/NavTargetResolutionAdapter.js" size="779" compressedSize="236">
+    <description>global jQuery, sap, window</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/PageBuildingAdapter.js" size="5834" compressedSize="1256">
+    <description>global jQuery, sap</description>
+    <requires>
+      <module name="sap/ui2/srvc/factory.js"/>
+      <module name="sap/ushell/System.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/PersonalizationAdapter.js" size="20536" compressedSize="8049">
+    <description>@fileOverview The Unified Shell's personalization adapter for the ABAP platform. The internal data structure of the AdapterContainer corresponds to the ABAP EDM. Container header properties transported via pseudo-items are mapped to the respective header properties in setItem/getItem/delItem  @version 1.46.7</description>
+    <requires>
+      <module name="sap/ushell/services/Personalization.js"/>
+      <module name="sap/ushell/services/_Personalization/constants.js"/>
+      <module name="sap/ui2/srvc/ODataWrapper.js" conditional="true"/>
+      <module name="sap/ui2/srvc/ODataService.js" conditional="true"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/SearchAdapter.js" size="1106" compressedSize="576">
+    <description>global jQuery, sap, window</description>
+    <requires>
+      <module name="sap/ushell/renderers/fiori2/search/esh/api/release/sina.js"/>
+      <module name="sap/ushell/renderers/fiori2/search/SearchConfiguration.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/SupportTicketAdapter.js" size="3421" compressedSize="1266">
+    <description>global jQuery, sap</description>
+    <requires>
+      <module name="sap/ui2/srvc/ODataWrapper.js"/>
+      <module name="sap/ui2/srvc/ODataService.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/abap/UserInfoAdapter.js" size="5162" compressedSize="1503">
+    <description>jslint nomen: true</description>
+    <requires>
+      <module name="sap/ui2/srvc/ODataWrapper.js"/>
+      <module name="sap/ui2/srvc/ODataService.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/adapters/hana/ContainerAdapter.js" size="4577" compressedSize="1225">
+    <description>global document, jQuery, sap</description>
+    <requires>
+      <module name="sap/ui2/srvc/utils.js"/>
+      <module name="sap/ushell/System.js"/>
+      <module name="sap/ushell/User.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/library.js" size="1006" compressedSize="357">
+    <description>Initialization Code and shared classes of library sap.ushell_abap (1.46.7)</description>
+    <requires>
+      <module name="sap/ui/core/Core.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ushell_abap/library.properties" size="78">
+  </module>
+  <module name="sap/ushell_abap/manifest.json" size="643">
+  </module>
+</library>
